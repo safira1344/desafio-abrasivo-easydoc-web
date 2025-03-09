@@ -271,3 +271,36 @@ footer {
   flex-direction: column;
   gap: 20px;
 }
+
+#robo-container  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px ;
+}
+
+#raiz-problema-container {
+  background-color: #F4F4F4;
+  width: 100%;
+  padding-top: 80px;
+}
+
+#raiz-problema-titulo {
+  font-family: "Readex Pro", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #111111;
+  width: 600px;
+}
+
+#raiz-problema-conteudo  {
+  width: 720px;
+  padding: 0 60px;
+}
+
+.raiz-problema-conteudo-lista-item {
+  width: 600px;
+  height: 140px;
+  background-color: #FFFFFF;
+}

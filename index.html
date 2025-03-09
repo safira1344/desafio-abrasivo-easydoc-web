@@ -45,14 +45,14 @@
         class="d-flex flex-row align-items-center justify-content-between"
       >
         <img id="logo" src="assets/imgs/logo.png" alt="logo" />
-        <div id="nav-itens" class="d-flex flex-row" style="gap: 50px">
-          <li><a hrerf="#">Home</a></li>
-          <li><a href="#">Soluções</a></li>
-          <li><a href="#">Produtos</a></li>
-          <li><a href="#">Cases</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Institucional</a></li>
-        </div>
+        <ul id="nav-itens" class="m-0 p-0 d-flex flex-row" style="gap: 50px">
+          <li><a href="">Home</a></li>
+          <li><a href="">Soluções</a></li>
+          <li><a href="">Produtos</a></li>
+          <li><a href="">Cases</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Institucional</a></li>
+        </ul>
         <div id="area-usuario" class="d-flex flex-row" style="gap: 40px">
           <button id="botao-demonstracao">Solicitar demonstração</button>
           <div class="d-flex flex-row align-items-center" style="gap: 20px">
@@ -194,44 +194,67 @@
           </div>
         </div>
       </div>
-      <div>
-        <img src="#" alt="robozinho" />
+      <div id="robo-container">
+        <img src="assets/imgs/cta.png" alt="robozinho" />
       </div>
-      <div>
-        <img src="#" alt="impressoras" />
-        <div>
-          <p>
-            Raiz do problema: falta de tecnologia adequada e processos ágeis
-          </p>
-          <p>
-            É crescente a demanda do mercado por processos digitalizados, ágeis
-            e sem papel. E muitas transportadoras ainda utilizam sistemas que
-            deixam a desejar, com limitações como:
-          </p>
-          <div>
-            <div>
-              <img src="#" alt="" />
-              <p>
-                <span>Dependência de fotos de celular</span>sem um sistema que
-                faça a validação da foto.
-              </p>
-            </div>
-            <div>
-              <img src="#" alt="" />
-              <p>
-                <span
-                  >Falta de integração entre a captura de comprovantes e o
-                  sistema de gestão.</span
-                >
-              </p>
-            </div>
-            <div>
-              <img src="#" alt="" />
-              <p>
-                Dificuldade em
-                <span>atender às exigências dos clientes</span> por informações
-                em tempo.
-              </p>
+      <div class="d-flex flex-row">
+        <img
+          src="assets/imgs/imagem-impressoras.png"
+          alt="impressoras"
+          style="width: 50%"
+        />
+        <div id="raiz-problema-container">
+          <div id="raiz-problema-conteudo">
+            <p id="raiz-problema-titulo" class="m-0">
+              Raiz do problema: falta de tecnologia adequada e processos ágeis
+            </p>
+            <p
+              style="
+                font-size: 18px;
+                color: #000000;
+                margin-top: 20px;
+                margin-bottom: 40px;
+              "
+            >
+              É crescente a demanda do mercado por processos digitalizados,
+              ágeis e sem papel. E muitas transportadoras ainda utilizam
+              sistemas que deixam a desejar, com limitações como:
+            </p>
+            <div id="raiz-problema-conteudo-lista">
+              <div
+                class="raiz-problema-conteudo-lista-item d-flex flex-row justify-content-center align-items-center"
+                style="gap: 30px; border-radius: 10px;"
+              >
+                <div class="icone-container-problemas">
+                  <i
+                    class="icone-item-problemas fa-solid fa-mobile"
+                    style="color: #ffffff"
+                  ></i>
+                </div>
+                <div style="width: 460px">
+                  <p class="m-0">
+                    <span>Dependência de fotos de celular </span>sem um sistema
+                    que faça a validação da foto.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <img src="#" alt="" />
+                <p>
+                  <span
+                    >Falta de integração entre a captura de comprovantes e o
+                    sistema de gestão.</span
+                  >
+                </p>
+              </div>
+              <div>
+                <img src="#" alt="" />
+                <p>
+                  Dificuldade em
+                  <span>atender às exigências dos clientes</span> por
+                  informações em tempo.
+                </p>
+              </div>
             </div>
           </div>
         </div>
