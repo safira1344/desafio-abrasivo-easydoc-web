@@ -36,6 +36,7 @@
   </head>
   <body class="w-100">
     <header
+      id="header"
       class="d-flex flex-column w-100 justify-content-start align-items-center"
       style="padding: 20px"
     >
@@ -69,14 +70,14 @@
       <div
         id="titulo-header-container"
         class="d-flex flex-column justify-content-start align-items-center"
-        style="gap: 30px;"
+        style="gap: 30px"
       >
-        <div class="d-flex flex-column" style="gap: 30px;">
+        <div class="d-flex flex-column" style="gap: 30px">
           <h1>
             Adeus, canhotos problemáticos: elimine perdas e conquiste eficiência
             com a Easy Doc
           </h1>
-          <p id="header-subtitulo" style="text-align: center;">
+          <p id="header-subtitulo" style="text-align: center">
             Saiba como a digitalização de comprovantes de entrega pode
             <span style="font-weight: bold"
               >transformar a operação da sua transportadora, acelerando
@@ -93,64 +94,100 @@
     </header>
 
     <main>
-      <video src="#"></video>
-      <div>
-        <h2>Dois problemas, sérias consequências</h2>
-        <p>
+      <img id="imagem-video" src="assets/imgs/image-video.png" alt="video" />
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <h2 id="problemas-container">Dois problemas, sérias consequências</h2>
+        <p id="transportadoras-container">
           Atualmente, muitas transportadoras possuem 2 desafios na sua operação
           junto a seus clientes:
         </p>
       </div>
-      <div>
-        <div>
-          <img src="#" alt="" />
-          <p>
+      <div
+        class="d-flex flex-row justify-content-center align-items-center"
+        style="gap: 60px"
+      >
+        <div
+          class="consequencias-container d-flex flex-row justify-content-center align-items-center"
+          style="gap: 30px"
+        >
+          <div class="icone-container-problemas">
+            <i class="icone-item-problemas fa-solid fa-exclamation"></i>
+          </div>
+          <p class="m-0" style="width: 500px">
             <span>Dificuldade na obtenção de comprovantes</span> de entrega
             digitais de qualidade junto aos seus motoristas.
           </p>
         </div>
-        <div>
-          <img src="#" alt="" />
-          <p>
+        <div
+          class="consequencias-container d-flex flex-row justify-content-center align-items-center"
+          style="gap: 30px"
+        >
+          <div class="icone-container-problemas">
+            <div
+              class="icone-item-problemas d-flex flex-row justify-content-center align-items-center"
+              style="width: 50px; height: 50px"
+            >
+              <i class="fa-solid fa-exclamation"></i>
+              <i class="fa-solid fa-exclamation"></i>
+            </div>
+          </div>
+          <p class="m-0" style="width: 500px">
             <span>Integração adequada a um sistema,</span>para poder
             disponibilizar informações em tempo real a seus clientes.
           </p>
         </div>
       </div>
 
-      <div>
+      <div id="dificuldades-titulo">
         <h3>
           Essas dificuldades resultam em sérios problemas operacionais, como:
         </h3>
       </div>
-      <div>
-        <div>
-          <img src="#" alt="" />
-          <div>
-            <p>Bloqueio e recusa de pagamentos</p>
-            <p>
+      <div
+        class="d-flex flex-column justify-content-center align-items-center"
+        style="gap: 20px"
+      >
+        <div class="dificuldades-container d-flex flex-row">
+          <div
+            class="icone-container-dificuldades"
+            style="width: 40px; height: 40px"
+          >
+            <i class="icone-item-dificuldades fa-solid fa-coins"></i>
+          </div>
+          <div class="dificuldade-container-conteudo">
+            <p class="dificuldades-subtitulo m-0">
+              Bloqueio e recusa de pagamentos
+            </p>
+            <p class="dificuldades-texto m-0">
               Bloqueio e recusa de pagamentos, impactando diretamente o fluxo de
               caixa da empresa.
             </p>
           </div>
         </div>
-        <div>
-          <img src="#" alt="" />
-          <div>
-            <p>Perda de tempo e recursos</p>
-            <p>
+        <div class="dificuldades-container">
+          <div
+            class="icone-container-dificuldades"
+            style="width: 40px; height: 40px"
+          >
+            <i class="icone-item-dificuldades fa-regular fa-clock"></i>
+          </div>
+          <div class="dificuldade-container-conteudo">
+            <p class="dificuldades-subtitulo m-0">Perda de tempo e recursos</p>
+            <p class="dificuldades-texto m-0">
               Perda de tempo e recursos corrigindo problemas com as imagens,
               entrando em contato com motoristas e lidando com clientes
               insatisfeitos.
             </p>
           </div>
         </div>
-        <div>
-          <img src="#" alt="" />
-          <div>
-            <p>Impacto negativo na imagem</p>
-            <p>
-              Imapcto negativo na imagem da empresa, pela falta de agilidade na
+        <div class="dificuldades-container">
+          <div class="icone-container-dificuldades">
+            <i class="icone-item-dificuldades fa-regular fa-thumbs-down"></i>
+          </div>
+          <div class="dificuldade-container-conteudo">
+            <p class="dificuldades-subtitulo m-0">Impacto negativo na imagem</p>
+            <p class="dificuldades-texto m-0">
+              Impacto negativo na imagem da empresa, pela falta de agilidade na
               comprovação de entregas - inclusive colocando futuras negociações
               em risco.
             </p>
@@ -417,24 +454,50 @@
       </div>
     </main>
 
-    <footer>
-      <div>
-        <div>
-          <img src="#" alt="logo" />
-          <p>Todos os direitos reservados</p>
+    <footer style="padding: 0 10%">
+      <div
+        class="d-flex flex-row justify-content-lg-between align-items-center flex-wrap"
+        style="box-shadow: 0px 2px 0px 0px rgba(35, 35, 35, 1); height: 108px"
+      >
+        <div
+          class="d-flex flex-row justify-content-center align-items-center"
+          style="gap: 10px"
+        >
+          <a href="#header"
+            ><img
+              id="imagem-logo-footer"
+              src="assets/imgs/easydoc-footer.png"
+              alt="logo"
+          /></a>
+
+          <p class="m-0">|</p>
+          <p class="m-0" style="font-size: 12px; line-height: 30px">
+            Todos os direitos reservados
+          </p>
         </div>
-        <div>
-          <p>Como podemos ajudar</p>
-          <button>+55(11)2227.3076</button>
+        <div id="como-podemos-ajudar-container">
+          <p class="m-0">Como podemos ajudar</p>
+          <button>+55 (11) 2227.3076</button>
         </div>
       </div>
-      <hr />
-      <div>
-        <p>
+      <div
+        class="d-flex flex-row justify-content-between align-items-center"
+        style="margin-top: 54px"
+      >
+        <p class="m-0" style="font-size: 12px">
           Rua Lauro Luchesi, 381, Jardim Leonor Mendes de Barros, São
           Paulo-SP,CEP 02348-090
         </p>
-        <p>Desenvolvido por <span>Abrasivo Digital</span></p>
+        <p class="m-0" style="font-size: 12px">
+          Desenvolvido por
+          <span
+            ><a
+              href="https://www.abrasivodigital.com.br"
+              style="text-decoration: none; color: #ffffff"
+              >Abrasivo Digital
+            </a></span
+          >
+        </p>
       </div>
     </footer>
   </body>
