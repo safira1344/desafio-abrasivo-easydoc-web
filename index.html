@@ -34,11 +34,17 @@
 
     <title>easyDOC</title>
   </head>
-  <body>
-    <header>
-      <nav class="d-flex flex-row">
-        <img src="" alt="logo" />
-        <div class="d-flex flex-row">
+  <body class="w-100">
+    <header
+      class="d-flex flex-column w-100 justify-content-start align-items-center"
+      style="padding: 20px"
+    >
+      <nav
+        id="nav-bar"
+        class="d-flex flex-row align-items-center justify-content-between"
+      >
+        <img id="logo" src="assets/imgs/logo.png" alt="logo" />
+        <div id="nav-itens" class="d-flex flex-row" style="gap: 50px">
           <li><a hrerf="#">Home</a></li>
           <li><a href="#">Soluções</a></li>
           <li><a href="#">Produtos</a></li>
@@ -46,35 +52,43 @@
           <li><a href="#">Blog</a></li>
           <li><a href="#">Institucional</a></li>
         </div>
-        <button>Solicitar demonstração</button>
-        <div>
-          <a href="#">
-            <!-- Colocar icone do font-aweseome -->
-            <i class="fa-solid fa-user"></i>
-            Login</a
-          >
-          <a href="#">
-            <!-- Colocar icone do font-aweseome -->
-            <i class="fa-solid fa-gear"></i>
-            Suporte</a
-          >
+        <div id="area-usuario" class="d-flex flex-row" style="gap: 40px">
+          <button id="botao-demonstracao">Solicitar demonstração</button>
+          <div class="d-flex flex-row align-items-center" style="gap: 20px">
+            <a href="#">
+              <i class="fa-solid fa-user" style="color: #999999"></i>
+              Login
+            </a>
+            <a href="#">
+              <i class="fa-solid fa-gear" style="color: #999999"></i> Suporte
+            </a>
+          </div>
         </div>
       </nav>
 
-      <div>
-        <h1>
-          Adeus, canhotos problemáticos: elimine perdas e conquiste eficiência
-          com a Easy Doc
-        </h1>
-        <p>
-          Saiba como a digitalização de comprovantes de entrega pode
-          <span style="font-weight: bold"
-            >transformar a operação da sua transportadora, acelerando
-            pagamentos, reduzindo custos
-          </span>
-          e elevando a satisfação dos clientes.
-        </p>
-        <button>Fale com um consultor →</button>
+      <div
+        id="titulo-header-container"
+        class="d-flex flex-column justify-content-start align-items-center"
+        style="gap: 30px;"
+      >
+        <div class="d-flex flex-column" style="gap: 30px;">
+          <h1>
+            Adeus, canhotos problemáticos: elimine perdas e conquiste eficiência
+            com a Easy Doc
+          </h1>
+          <p id="header-subtitulo" style="text-align: center;">
+            Saiba como a digitalização de comprovantes de entrega pode
+            <span style="font-weight: bold"
+              >transformar a operação da sua transportadora, acelerando
+              pagamentos, reduzindo custos
+            </span>
+            e elevando a satisfação dos clientes.
+          </p>
+        </div>
+        <button id="botao-consultor">
+          Fale com um consultor
+          <i class="fa-solid fa-square-up-right" style="margin-left: 5px"></i>
+        </button>
       </div>
     </header>
 

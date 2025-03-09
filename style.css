@@ -10,3 +10,89 @@ h3,
 h4 {
   font-family: "Readex Pro", sans-serif;
 }
+
+p > span {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #ffeff0;
+}
+
+header {
+  background-image: url(assets/imgs/banner-bg.png);
+  height: 660px;
+}
+
+header p {
+  color: #ffeff0;
+}
+
+#header-subtitulo {
+  font-size: 18px;
+}
+
+#nav-itens li {
+  list-style-type: none;
+}
+
+#nav-itens a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #111111;
+}
+
+#nav-bar {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 1560px;
+  height: 90px;
+  border-radius: 100px;
+}
+
+#area-usuario a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #333333;
+}
+
+#botao-demonstracao {
+  width: 200px;
+  height: 45px;
+  background-color: #d10010;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Readex Pro", sans-serif;
+  color: #ffffff;
+  border: 0px;
+}
+
+#botao-consultor {
+  background-color: #ffffff;
+  /* width: 256px;
+  height: 64px; */
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: bold;
+  color: #666666;
+  font-size: 16px;
+  border: none;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+  line-height: 34px;
+  
+}
+
+#titulo-header-container {
+  width: 966px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 76px;
+}
