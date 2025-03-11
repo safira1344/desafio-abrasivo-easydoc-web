@@ -75,7 +75,7 @@ header p {
   border: 0px;
 }
 
-#botao-consultor {
+.botao-consultor {
   background-color: #ffffff;
   /* width: 256px;
   height: 64px; */
@@ -303,4 +303,119 @@ footer {
   width: 600px;
   height: 140px;
   background-color: #FFFFFF;
+}
+
+.diferenciais-container {
+  background-color: #FFFFFF;
+}
+
+.diferenciais-box {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 1460px;
+  height: 792px;
+}
+
+#diferenciais-titulo{
+  font-size: 18px; 
+  color: #000000; 
+  width: 1012px; 
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dispositivos-container {
+  width: 600px; 
+  height: 170px;
+  border: 2px solid #ffeff0;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 239, 240, 0.2) 100%
+  );
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 30px;
+  padding-right: 30px;
+  gap: 30px;
+}
+
+.icone-container-diferenciais{
+  width: 50px;
+  height: 50px;
+  background-color: #d10010;
+  border-radius: 50%;
+}
+
+.botao-demonstracao {
+  background-color: #D10010;
+  /* width: 256px;
+  height: 64px; */
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 14px;
+  border: none;
+  line-height: 34px;
+}
+
+#patamar-container{
+  /* background-color: #151515; */
+  width: 1920px;
+  height: 520px;
+  /* background-image: url("assets/imgs/base-footer.png"); */
+  background-color: rgba(27, 28, 29, 1);
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: #ffffff;
+}
+
+#patamar-texto {
+  width: 966px;
+  height: 85px;
+}
+
+.item-beneficios-container{
+  border: 2px solid #ff6550;
+  /* border-color: #D10010; */
+  width: 395px;
+  height: 165px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 65px;
+  padding-bottom: 40px;
+  gap: 30px;
+}
+
+#processo-container {
+  width: 1460px;
+  height: 855px;
+}
+
+#processo-titulo-container {
+  width: 1340px;
+  height: 90px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#case-container-principal {
+  width: 1920px;
+  height: 723px;
+  background-color: #F4F4F4;
 }
