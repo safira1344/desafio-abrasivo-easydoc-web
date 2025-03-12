@@ -485,4 +485,19 @@ footer {
 .btn-danger {
   border-radius: 10px;
   font-weight: bold;
+  background-color: #D10010;
+  /* width: 256px;
+  height: 64px; */
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 60px;
+  margin-right: 15px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  line-height: 34px;
 }
