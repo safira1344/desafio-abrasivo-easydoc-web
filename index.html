@@ -284,7 +284,8 @@
         class="diferenciais-container d-flex justify-content-center align-items-center"
       >
         <div
-          class="diferenciais-box d-flex flex-column justify-content-center align-items-center"
+          class="diferenciais-box d-flex flex-column justify-content-between align-items-center"
+          style="gap: 40px"
         >
           <div id="diferenciais-titulo" class="m-0">
             <p class="text-center">
@@ -365,8 +366,15 @@
         id="patamar-container"
         class="d-flex flex-column justify-content-center align-items-center"
       >
-        <div id="patamar-texto">
-          <h2 style="color: #ffffff; font-weight: 600">
+        <div id="patamar-texto" class="text-center">
+          <h2
+            style="
+              color: #ffffff;
+              font-weight: 600;
+              font-size: 28px;
+              margin-bottom: 30px;
+            "
+          >
             Leve sua Transportadora a um novo patamar com a EasyDoc
           </h2>
           <p style="font-size: 18px">
@@ -396,27 +404,37 @@
         </div>
       </div>
       <div
-        class="d-flex flex-column justify-content-center align-items-center"
-        style="background-color: #ffffff;"
+        class="d-flex flex-column justify-content-between align-items-center"
+        style="background-color: #ffffff; padding: 80px 0"
       >
-        <div class="processo-container">
+        <div
+          class="processo-container d-flex flex-column justify-content-between align-items-center"
+          style="gap: 40px"
+        >
           <div id="processo-titulo-container">
             <h2
+              class="m-0"
               style="
+                line-height: 34px;
                 font-weight: 600;
                 font-size: 28px;
                 color: #111111;
-                padding-bottom: 30px;
               "
             >
-              Como é o nosso proccesso?
+              Como é o nosso processo?
             </h2>
-            <p style="font-size: 18px; color: #000000">
+            <p
+              class="m-0"
+              style="font-size: 18px; line-height: 34px; color: #000000"
+            >
               A EasyDoc conta um processo de excelência para fornecer a você uma
               solução personalizada e especifica para as suas necessidades.
             </p>
           </div>
-          <div>
+          <div
+          class="d-flex flex-column justify-content-between align-items-center"
+          style="gap: 20px;"
+          >
             <div class="dificuldades-container d-flex flex-row">
               <div
                 class="icone-container-dificuldades"
@@ -478,15 +496,19 @@
               </div>
             </div>
             <div class="dificuldades-container d-flex flex-row">
-              <div class="icone-container-dificuldades"
-              style="width: 40px; height: 40px">
+              <div
+                class="icone-container-dificuldades"
+                style="width: 40px; height: 40px"
+              >
                 <i
                   class="icone-item-dificuldades fa-solid fa-magnifying-glass"
                   style="color: #ffffff"
                 ></i>
               </div>
               <div class="dificuldade-container-conteudo">
-                <p class="dificuldades-subtitulo m-0">Passo 4 - Suporte contínuo</p>
+                <p class="dificuldades-subtitulo m-0">
+                  Passo 4 - Suporte contínuo
+                </p>
                 <p class="dificuldades-texto m-0">
                   Oferecemos Suporte Técnico constante, para garantir o bom
                   funcionamento da solução e a resolução de qualquer problema
@@ -495,45 +517,128 @@
               </div>
             </div>
           </div>
-          <button class="botao-demonstracao">Fale com um consultor →</button>
+          <button class="botao-demonstracao" style="margin-top: 20px">
+            Fale com um consultor →
+          </button>
         </div>
       </div>
 
-      <div id="case-container-principal">
-        <div>
-          <h3>
-            Case de sucesso: Bora Transportes e os desafios do crescimento
-            acelerado
-          </h3>
-          <p>
-            A Bora Transportes é uma transportadora que realiza a transferência
-            e distribuição de alimentos nas regiões Norte, Nordeste, MG e ES.
-          </p>
-          <p>
-            Com 21 anos, enfrentou, juntamente com o crescimento e o sucesso, os
-            mesmos desafios citados acima. Então contou com nossas soluções para
-            alcançar um novo patamar de eficiência e organização.
-          </p>
-          <div>
-            <div>
-              <p>18</p>
-              <p>filiais</p>
+      <div
+        id="case-container-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <div
+          id="case-box d-flex flex-row justify-content-center align-items-center"
+        >
+          <div id="case-conteudo-container">
+            <div id="case-texto">
+              <h3 style="color: #111111; font-size: 28px; font-weight: 500">
+                Case de sucesso: Bora Transportes e os desafios do crescimento
+                acelerado
+              </h3>
+              <p style="font-size: 18px; color: #000000; margin-top: 20px">
+                A Bora Transportes é uma transportadora que realiza a
+                transferência e distribuição de alimentos nas regiões Norte,
+                Nordeste, MG e ES.
+              </p>
+              <p style="margin-top: 30px">
+                Com 21 anos, enfrentou, juntamente com o crescimento e o
+                sucesso, os mesmos desafios citados acima. Então contou com
+                nossas soluções para alcançar um novo patamar de eficiência e
+                organização.
+              </p>
             </div>
-            <div>
-              <p>300</p>
-              <p>veículos</p>
+
+            <div
+              class="d-flex flex-row justify-content-around align-items-lg-center"
+            >
+              <div class="dados-case-box">
+                <p
+                  style="
+                    font-weight: 500;
+                    font-family: 'Readex Pro', sans-serif;
+                    font-size: 40px;
+                    color: #d10010;
+                  "
+                >
+                  18
+                </p>
+                <p
+                  style="
+                    color: #666666;
+                    font-family: 'Readex Pro', sans-serif;
+                    font-weight: bold;
+                    font-size: 20px;
+                  "
+                >
+                  filiais
+                </p>
+              </div>
+              <div>
+                <p
+                  style="
+                    font-weight: 500;
+                    font-family: 'Readex Pro', sans-serif;
+                    font-size: 40px;
+                    color: #d10010;
+                  "
+                >
+                  300
+                </p>
+                <p
+                  style="
+                    color: #666666;
+                    font-family: 'Readex Pro', sans-serif;
+                    font-weight: bold;
+                    font-size: 20px;
+                  "
+                >
+                  veículos
+                </p>
+              </div>
+              <div>
+                <p
+                  style="
+                    font-weight: 500;
+                    font-family: 'Readex Pro', sans-serif;
+                    font-size: 40px;
+                    color: #d10010;
+                  "
+                >
+                  21
+                </p>
+                <p
+                  style="
+                    color: #666666;
+                    font-family: 'Readex Pro', sans-serif;
+                    font-weight: bold;
+                    font-size: 20px;
+                  "
+                >
+                  anos
+                </p>
+              </div>
             </div>
-            <div>
-              <p>21</p>
-              <p>anos</p>
+            <div class="box-play-case d-flex align-items-center">
+              <div>
+                <i class="fa-solid fa-play" style="color: #ffffff"></i>
+              </div>
+              <p
+                style="
+                  width: 381px;
+                  height: 34px;
+                  font-size: 18px;
+                  color: #000000;
+                "
+              >
+                Assista o case da Bora Transportes completo!
+              </p>
             </div>
           </div>
-          <div>
-            <img src="#" alt="play" />
-            <p>Assista o case da Bora Transportes completo!</p>
-          </div>
+          <img
+            src="assets/imgs/image-videobora.png"
+            alt="video do bora transportes"
+          />
         </div>
-        <video src="#"></video>
       </div>
       <div>
         <div>
@@ -627,8 +732,8 @@
         style="margin-top: 54px"
       >
         <p class="m-0" style="font-size: 12px">
-          Rua Lauro Luchesi, 381, Jardim Leonor Mendes de Barros, São
-          Paulo-SP,CEP 02348-090
+          Rua Lauro Luchesi, 381, Jardim Leonor Mendes de Barros, São Paulo-SP,
+          CEP 02348-090
         </p>
         <p class="m-0" style="font-size: 12px">
           Desenvolvido por

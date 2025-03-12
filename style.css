@@ -269,6 +269,7 @@ footer {
 .dificuldade-container-conteudo {
   display: flex;
   flex-direction: column;
+  width: 1210px;
   gap: 20px;
 }
 
@@ -371,12 +372,10 @@ footer {
 }
 
 #patamar-container{
-  /* background-color: #151515; */
-  width: 1920px;
+  width: 100%;
   height: 520px;
-  /* background-image: url("assets/imgs/base-footer.png"); */
+  background-image: url("assets/imgs/base-footer.png");
   background-color: rgba(27, 28, 29, 1);
-  background-size: cover;
   background-blend-mode: multiply;
   color: #ffffff;
 }
@@ -387,7 +386,7 @@ footer {
 }
 
 .item-beneficios-container{
-  border: 2px solid #ff6550;
+  /* border: 2px solid #ff6550; */
   /* border-color: #D10010; */
   width: 395px;
   height: 165px;
@@ -405,17 +404,38 @@ footer {
 
 #processo-titulo-container {
   width: 1340px;
-  height: 90px;
-  margin-top: 80px;
-  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 #case-container-principal {
   width: 1920px;
   height: 723px;
   background-color: #F4F4F4;
+}
+
+#case-box  {
+  width: 720px;
+  height: 563px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 80px;
+  /* margin-left: 230px */
+}
+
+#case-texto {
+  width: 600px;
+  height: 278px;
+}
+
+.dados-case-box {
+
+
+}
+
+.box-play-case {
+  background-color: #FFFFFF;
 }
