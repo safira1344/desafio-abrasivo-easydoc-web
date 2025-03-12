@@ -383,13 +383,14 @@ footer {
 #patamar-texto {
   width: 966px;
   height: 85px;
+  margin-bottom: 90px;
 }
 
 .item-beneficios-container{
-  /* border: 2px solid #ff6550; */
-  /* border-color: #D10010; */
   width: 395px;
   height: 165px;
+  border: 1px solid #D10010;
+  border-radius: 15px;
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 65px;
@@ -397,11 +398,24 @@ footer {
   gap: 30px;
 }
 
+.icone-container-beneficios {
+  width: 50px;
+  height: 50px;
+  background-color: #d10010;
+  border-radius: 50%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%); */
+}
+
 #processo-container {
   width: 1460px;
   height: 855px;
 }
-
 #processo-titulo-container {
   width: 1340px;
   display: flex;
@@ -427,4 +441,48 @@ footer {
 
 #case-texto {
   height: 278px;
+}
+
+.assista-case-box {
+  width: 520px; 
+  height: 130px;
+  border: 2px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 30px;
+  padding-right: 30px;
+  gap: 30px;
+}
+
+
+.form-container {
+  background: #fff6f7;
+  border: 2px;
+  border-radius: 20px;
+  padding: 30px;
+  width: 1460px;
+  height: 633px;
+  /* width: 90%;
+  max-width: 1000px; */
+}
+
+.form-control {
+  width: 433px;
+  height: 60px;
+  border: 2px;
+  border-radius: 5px;
+}
+
+.label-text {
+  font-weight: bold; 
+  font-size: 16px;
+}
+
+.btn-danger {
+  border-radius: 10px;
+  font-weight: bold;
 }
