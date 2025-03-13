@@ -503,3 +503,10 @@ footer {
   border: none;
   line-height: 34px;
 }
+
+#depoimentos-container {
+  width: 968px;
+  height: 266px;
+  border-radius: 20px;
+  background-color: #FFF6F7;
+}
