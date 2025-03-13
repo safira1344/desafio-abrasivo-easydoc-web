@@ -77,8 +77,6 @@ header p {
 
 .botao-consultor {
   background-color: #ffffff;
-  /* width: 256px;
-  height: 64px; */
   border-radius: 5px;
   padding-left: 25px;
   padding-right: 25px;
@@ -112,7 +110,6 @@ footer {
 }
 
 #logo-footer {
-  /* padding-left: 230px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -210,7 +207,6 @@ footer {
 .icone-item-dificuldades {
   color: #ffffff;
   font-size: 20px;
-  /* line-height: 18px; */
   position: relative;
   left: 50%;
   top: 50%;
@@ -356,8 +352,6 @@ footer {
 
 .botao-demonstracao {
   background-color: #D10010;
-  /* width: 256px;
-  height: 64px; */
   border-radius: 5px;
   padding-left: 25px;
   padding-right: 25px;
@@ -468,8 +462,6 @@ footer {
   padding: 30px;
   width: 1460px;
   height: 633px;
-  /* width: 90%;
-  max-width: 1000px; */
 }
 
 .form-control {
@@ -488,8 +480,6 @@ footer {
   border-radius: 10px;
   font-weight: bold;
   background-color: #D10010;
-  /* width: 256px;
-  height: 64px; */
   border-radius: 5px;
   padding-left: 25px;
   padding-right: 25px;
