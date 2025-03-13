@@ -755,7 +755,7 @@
               impulsionar o sucesso da sua empresa!
             </h3>
           </div>
-          <form action="mailto:someone@example.com" method="post" enctype="text/plain" class="form-container">
+          <form action="mailto:someone@example.com" method="post" enctype="text/plain" autocomplete="on" class="form-container">
             <div class="row mb-3">
               <div class="col-md-4">
                 <label for="nome" class="form-label label-text"
@@ -763,6 +763,7 @@
                 >
                 <input
                   type="text"
+                  value="Rubem Motta Coelho"
                   id="nome"
                   name="nome"
                   class="form-control"
@@ -775,6 +776,7 @@
                 >
                 <input
                   type="email"
+                  value="rubem.coelho@logicoop.com"
                   id="email"
                   name="email"
                   class="form-control"
@@ -786,7 +788,9 @@
                   >Telefone <span class="text-danger">*</span></label
                 >
                 <input
-                  type="text"
+                  type="tel"
+                  value="(11) 33030.3030"
+                  pattern="(\(\d{2}\) \d{5}.\d{4}|\(\d{2}\) \d{5} \d{4}|\d{10,11})" 
                   id="telefone"
                   name="telefone"
                   class="form-control"
@@ -802,6 +806,7 @@
                 >
                 <input
                   type="text"
+                  value="Logicoop Logística e Transporte de Cargas"
                   id="empresa"
                   name="empresa"
                   class="form-control"
@@ -812,6 +817,7 @@
                 <label for="estado" class="form-label label-text">Estado</label>
                 <input
                   type="text"
+                  value="São Paulo"
                   id="estado"
                   name="estado"
                   class="form-control"
@@ -821,6 +827,7 @@
                 <label for="cidade" class="form-label label-text">Cidade</label>
                 <input
                   type="text"
+                  value="Guarulhos"
                   id="cidade"
                   name="cidade"
                   class="form-control"
@@ -834,6 +841,7 @@
               >
               <textarea
                 id="mensagem"
+                placeholder="Escreva detalhes da sua mensagem"
                 name="mensagem"
                 style="
                   width: 1381px;
